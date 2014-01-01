@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Plottable Alpha</title>
+        
+        <script type="text/javascript" src="../libs/grid.js"></script>
+        <script type="text/javascript" src="../libs/math.js"></script>
+
+		<script type="text/javascript" src="plottable.js"></script>
+		
+    </head>
+    <body bgcolor="black" onload="clearBoard();">
+    	
+        <canvas id="master" width="520" height="520">Sorry, your browser does not support the canvas HTML5 tag. Please update your browser.</canvas>
+        
+        <div id="inputs">
+        <input type="text" id="func" />
+        <input type="button" value="Go!" onclick="submit();" />
+        <input type="button" value="Clear" onclick="clearBoard();" />
+        </div>
+        
+    </body>
+</html>
